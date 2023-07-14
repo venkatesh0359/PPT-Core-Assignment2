@@ -1,1 +1,20 @@
+How do you compare two strings in Java?
 
+In Java, you can compare two strings using the equals() method or the compareTo() method. Here's how each method works:
+
+equals() method: This method compares the contents of two strings to check if they are equal. It returns a boolean value (true or false) based on the comparison. Here's an example:
+
+String str1 = "Hello";
+String str2 = "World";
+
+boolean isEqual = str1.equals(str2);
+System.out.println(isEqual); // Outputs: false
+
+
+compareTo() method: This method compares two strings lexicographically (i.e., based on their dictionary order). It returns an integer value that indicates the relationship between the strings. The value 0 means the strings are equal, a negative value means the first string is lexicographically smaller, and a positive value means the first string is lexicographically larger. Here's an example:
+
+String str1 = "Apple";
+String str2 = "Banana";
+
+int comparison = str1.compareTo(str2);
+System.out.println(comparison); // Outputs: -1
