@@ -1,1 +1,9 @@
+Q) What are the types of operators based on the number of operands?
 
+Operators in Java can be classified based on the number of operands they work on:
+
+Unary Operators: These operators work on a single operand. Examples include the unary minus (-) and unary plus (+) operators.
+
+Binary Operators: These operators work on two operands. Examples include arithmetic operators like addition (+), subtraction (-), multiplication (*), and division (/).
+
+Ternary Operator: There is only one ternary operator in Java, which is the conditional operator (? :). It takes three operands and is used for decision making. It evaluates a condition and returns one of two possible values based on the result of the condition.
