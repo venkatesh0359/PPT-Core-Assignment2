@@ -1,1 +1,18 @@
+What is the use of Switch case in Java programming?
 
+The switch statement in Java is a control flow statement that allows you to select one of many code blocks to be executed, based on the value of a variable or an expression. Its primary use is to simplify the writing of multiple if-else statements.
+
+The general syntax of a switch statement is as follows:
+
+switch (expression) {
+    case value1:
+        // Code block to execute if expression matches value1
+        break;
+    case value2:
+        // Code block to execute if expression matches value2
+        break;
+    // Additional cases
+    default:
+        // Code block to execute if expression does not match any case
+        break;
+}
