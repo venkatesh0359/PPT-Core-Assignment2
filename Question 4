@@ -1,1 +1,12 @@
+Q) What are the conditional Statements and use of conditional statements in Java?
 
+Conditional statements in Java allow the program to perform different actions based on different conditions. The most common conditional statements are:
+
+
+If Statement: The if statement allows you to execute a block of code if a certain condition is true. If the condition is false, the block is skipped.
+
+If-else Statement: The if-else statement extends the if statement by providing an alternative block of code to be executed if the condition is false.
+
+Nested if-else Statement: This is a combination of multiple if-else statements. It allows you to check multiple conditions and execute different blocks of code accordingly.
+
+Conditional statements are fundamental in programming as they enable decision-making capabilities, allowing the program to adapt and respond to different scenarios.
