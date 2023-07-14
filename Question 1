@@ -1,1 +1,11 @@
+Q) What are the Conditional Operators in Java?
 
+In Java, the conditional operators are used to make decisions based on certain conditions. The conditional operators include:
+
+Logical AND (&&): It returns true if both operands are true; otherwise, it returns false.
+
+Logical OR (||): It returns true if either of the operands is true; if both operands are false, it returns false.
+
+Logical NOT (!): It reverses the logical state of the operand. If a condition is true, the ! operator will make it false, and vice versa.
+
+These operators are typically used within conditional statements, such as if statements or loops, to control the flow of the program based on certain conditions.
