@@ -1,1 +1,15 @@
+What is Mutable String in Java? Explain with an example.
 
+In Java, strings are immutable, meaning their values cannot be changed once they are assigned. However, you can use the StringBuilder or StringBuffer classes to create mutable strings.
+
+StringBuilder: The StringBuilder class is used to create mutable (modifiable) sequences of characters. You can perform various operations such as appending, inserting, or replacing characters in a StringBuilder object.
+
+Here's an example:
+
+StringBuilder mutableString = new StringBuilder("Hello");
+mutableString.append(" World");
+System.out.println(mutableString); // Outputs: Hello World
+
+In this example, the StringBuilder object allows us to modify the string by appending " World" to it.
+
+StringBuffer: The StringBuffer class is similar to StringBuilder and provides similar functionality. The main difference is that StringBuffer is thread-safe, meaning it can be safely used in multithreaded environments.
