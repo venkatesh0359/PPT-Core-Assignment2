@@ -1,1 +1,24 @@
+ Write a program to sort a String alphabetically.
+
+Here's the program in Java that sorts a string alphabetically:
+
+import java.util.Arrays;
+
+public class StringSortExample {
+    public static void main(String[] args) {
+        String input = "Hello world";
+
+        // Convert the string to a character array
+        char[] chars = input.toCharArray();
+
+        // Sort the character array in ascending order
+        Arrays.sort(chars);
+
+        // Create a new string from the sorted character array
+        String sortedString = new String(chars);
+
+        System.out.println("Original string: " + input);
+        System.out.println("Sorted string: " + sortedString);
+    }
+}
 
